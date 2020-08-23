@@ -1,0 +1,14 @@
+body {
+    padding-top: 5rem;
+    color: #005a9e;
+    background-color: lightyellow;
+}
+footer {
+    margin-top: 3rem;
+}
+footer p {
+    color: darkblue;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
