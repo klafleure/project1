@@ -13,8 +13,7 @@ footer p {
     margin-left: 1rem;
 }
 .carousel-inner {
-    width: 100%;
+    max-width: 400px;
     margin: auto;
-    position: absolute;
-    box-align: "center"
+    text-align: "center"
 }
