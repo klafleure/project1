@@ -12,3 +12,9 @@ footer p {
     margin-bottom: 0;
     margin-left: 1rem;
 }
+.carousel-inner {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    box-align: "center"
+}

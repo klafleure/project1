@@ -7,10 +7,10 @@
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <!-- Project CSS -->
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="library/style.css" />
     </head>
     <div id="navbar"></div>
-    <main role="main" class="container"></main>
+    <main role="main" class="container">
     <body>
         <h1>Welcome!</h1>
         <p>
@@ -22,16 +22,16 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="pic1.jpg" alt="First slide">
+                  <img src="pic1.jpg" class="d-block w-40" alt="Adventure picture 1">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="pic2.jpg" alt="Second slide">
+                <img src="pic2.jpg" class="d-block w-40" alt="Adventure picture 2">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="pic3.jpg" alt="Third slide">
+                <img src="pic3.jpg" class="d-block w-40" alt="Adventure picture 3">
               </div>
             </div>
-        </div>
+          </div>
     </main><!-- /.container -->
     <div id="footer"></div>
     <!-- jQuery first, then Popper, then Bootstrap. -->
@@ -44,9 +44,9 @@
     (function($) {
         $(document).ready(function () {
             //Load the navbar from the library.
-            $("#navbar").load("library/navbar.html");
+            $("#navbar").load("library/includes/navbar.html");
             //Load the footer from the library.
-            $("#footer").load("library/footer.html");
+            $("#footer").load("library/includes/footer.html");
         });
     }(jQuery));
     </script>
