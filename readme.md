@@ -1,5 +1,5 @@
 Kaitria LaFleure
-I created a web application for similar to Airbnb. It is a web appplication that allows customers to book vacations.
+I created a web application for a fake business called Booking Agency. It is similar to Airbnb. It is a web appplication that allows customers to book vacations.
 You can create an account on the Create Account page. You can also view a gallery of vacation spots and collect your favorite bookings on the Favorite screen.
 I used HTML, CSS, JavaScript, & bootstrap.
 Three ideas for future improvement
